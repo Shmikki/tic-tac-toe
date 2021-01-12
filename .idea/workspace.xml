@@ -20,18 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7d443c-626e-41cf-aa67-130e8ab3783a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Board/Board.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Board/Board.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Board/Board.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Board/Board.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Board/Square/Square.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Square/Square.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Board/Square/Square.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Square/Square.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Board/Square/Square.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Square/Square.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Board/Square/Square.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Square/Square.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610469433119</updated>
       <workItem from="1610469449737" duration="13360000" />
-      <workItem from="1610484604105" duration="4345000" />
+      <workItem from="1610484604105" duration="4927000" />
     </task>
     <servers />
   </component>

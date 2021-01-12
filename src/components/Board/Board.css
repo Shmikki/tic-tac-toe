@@ -10,6 +10,7 @@
 }
 .board__text {
   width: 120px;
+  height: 100px;
   padding: 0;
   margin: 0;
   display: flex;
@@ -32,6 +33,22 @@
   margin-top: 20px;
   height: 30px;
   cursor: pointer;
+  border-radius: 3px;
+}
+.refreshBtn:hover {
+  background: #dddddd;
+}
+
+@media all and (max-width: 600px) {
+  .board {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .board__game {
+    width: 300px;
+    margin-right: 0;
+  }
 }
 
 /*# sourceMappingURL=Board.css.map */
