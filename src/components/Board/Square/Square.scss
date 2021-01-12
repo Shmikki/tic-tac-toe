@@ -2,22 +2,40 @@
   height: 100px;
   flex: 30%;
   cursor: pointer;
-  background: #fff;
   padding: 0;
-  border: 1px solid black;
+  border: 2px solid black;
   align-items: center;
-
-  &__value{
-    color: black;
-    text-align: center;
-    font-weight: 800;
-    font-size: 30px;
-    margin: 0;
-    padding: 0;
-  }
+  background: none;
 
   &:disabled{
-    background: #ffff;
+    background: none;
+  }
+
+  &__value{
+    width: 100%;
+    height: 100%;
+  }
+
+  &__circle{
+    stroke-dasharray: 283;
+    stroke-dashoffset: 283;
+    animation: draw 1s forwards;
+  }
+
+  &__cross{
+
+    &_first{
+      stroke-dasharray: 125;
+      stroke-dashoffset: 125;
+      animation: draw 0.3s forwards;
+    }
+
+    &_second{
+      stroke-dasharray: 125;
+      stroke-dashoffset: 125;
+      animation: draw 0.3s 0.3s forwards;
+    }
+
   }
 
   &:hover { outline: 0 !important }
@@ -27,10 +45,12 @@
 @media all and (max-width: 600px){
   .square{
     height: 70px;
-
-    &__value{
-      font-size: 24px;
-    }
   }
 
+}
+
+@keyframes draw {
+    100%{
+      stroke-dashoffset: 0;
+    }
 }

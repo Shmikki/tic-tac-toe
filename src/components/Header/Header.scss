@@ -16,3 +16,13 @@
     margin-bottom: 20px;
   }
 }
+
+@media all and (max-width: 600px){
+  .header{
+
+    &__title{
+      margin-left: 0;
+      font-size: 48px;
+    }
+  }
+}

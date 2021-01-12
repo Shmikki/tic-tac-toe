@@ -11,7 +11,8 @@ class Board extends React.Component {
             squares: Array(9).fill(null),
             nextPlayer: true,
             winner: null,
-            isWinner: false
+            isWinner: false,
+            stepCount: 0
         }
         this.onHandleClick = this.onHandleClick.bind(this);
     }
@@ -22,11 +23,11 @@ class Board extends React.Component {
             this.state.winner = this.winner();
             this.state.isWinner = true;
         }
-        this.setState({...this.state.squares, nextPlayer: !this.state.nextPlayer})
+        this.setState({...this.state.squares, nextPlayer: !this.state.nextPlayer , stepCount: this.state.stepCount + 1 })
     }
 
     refresh() {
-        this.setState({squares: Array(9).fill(null), nextPlayer: true, winner: null, isWinner: false})
+        this.setState({squares: Array(9).fill(null), nextPlayer: true, winner: null, isWinner: false, stepCount: 0})
     }
 
     winner() {
@@ -53,6 +54,7 @@ class Board extends React.Component {
     }
 
     render() {
+        console.log(this.state.stepCount)
         return (
             <div className="board">
                 <div className="board__game">
@@ -62,7 +64,7 @@ class Board extends React.Component {
                     <button className="refreshBtn" onClick={() => this.refresh()}>Restart game</button>
                 </div>
                 <div className="board__text">
-                    <p>Next step is: <span className="board__text_current-player">{this.state.nextPlayer ? "X" : "0"} </span></p>
+                    {this.state.stepCount === 9 && !this.winner() ? "No winner. Restart the game" : <p>Next step is: <span className="board__text_current-player">{this.state.nextPlayer ? "X" : "0"} </span></p>}
                     {this.state.winner ? <div className="board__winner"> Winner is {this.state.winner} </div> : null}
                 </div>
             </div>
