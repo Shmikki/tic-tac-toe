@@ -6,7 +6,6 @@ const Header = (props) =>{
 
     return (<header className="header">
                     <h1 className="header__title">Tic tac toe <Bell /></h1>
-
             </header>)
 
 }
