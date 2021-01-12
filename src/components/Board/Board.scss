@@ -40,8 +40,18 @@
   height: 30px;
   cursor: pointer;
 
-  &:hover{
-
-  }
 }
 
+
+@media all and (max-width: 600px){
+  .board{
+
+    flex-direction: column;
+
+    &__game{
+      width: 210px;
+      margin-right: 20px;
+    }
+  }
+
+}

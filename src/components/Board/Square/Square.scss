@@ -5,13 +5,15 @@
   background: #fff;
   padding: 0;
   border: 1px solid black;
-
+  align-items: center;
 
   &__value{
     color: black;
     text-align: center;
     font-weight: 800;
     font-size: 30px;
+    margin: 0;
+    padding: 0;
   }
 
   &:disabled{
@@ -19,4 +21,16 @@
   }
 
   &:hover { outline: 0 !important }
+}
+
+
+@media all and (max-width: 600px){
+  .square{
+    height: 70px;
+
+    &__value{
+      font-size: 24px;
+    }
+  }
+
 }
