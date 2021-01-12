@@ -1,0 +1,14 @@
+.header{
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  width: 80vw;
+  justify-content: space-around;
+
+
+  &__title{
+    font-size: 48px;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,47 @@
+.board{
+  display: flex;
+
+
+  &__game{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-right: 50px;
+  }
+
+ &__text{
+   width: 120px;
+   padding: 0;
+   margin: 0;
+   display: flex;
+   font-size: 18px;
+   flex-direction: column;
+
+   &p{
+     padding: 0;
+     margin: 0;
+   }
+
+   &_current-player{
+     font-weight: 800;
+   }
+ }
+
+  &__winner{
+    font-weight: 800;
+  }
+}
+
+
+.refreshBtn{
+  width: 100%;
+  margin-top: 20px;
+  height: 30px;
+  cursor: pointer;
+
+  &:hover{
+
+  }
+}
+

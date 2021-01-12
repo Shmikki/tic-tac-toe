@@ -1,0 +1,11 @@
+.wrapper{
+  flex-direction: column;
+  display: flex;
+  min-width: 100vw;
+  justify-content: center;
+
+  &__content{
+    display: flex;
+    justify-content: center;
+  }
+}

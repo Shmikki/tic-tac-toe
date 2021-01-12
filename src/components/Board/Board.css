@@ -1,0 +1,37 @@
+.board {
+  display: flex;
+}
+.board__game {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin-right: 50px;
+}
+.board__text {
+  width: 120px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+}
+.board__textp {
+  padding: 0;
+  margin: 0;
+}
+.board__text_current-player {
+  font-weight: 800;
+}
+.board__winner {
+  font-weight: 800;
+}
+
+.refreshBtn {
+  width: 100%;
+  margin-top: 20px;
+  height: 30px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=Board.css.map */

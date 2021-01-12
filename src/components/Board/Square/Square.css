@@ -1,0 +1,22 @@
+.square {
+  height: 100px;
+  flex: 30%;
+  cursor: pointer;
+  background: #fff;
+  padding: 0;
+  border: 1px solid black;
+}
+.square__value {
+  color: black;
+  text-align: center;
+  font-weight: 800;
+  font-size: 30px;
+}
+.square:disabled {
+  background: #ffff;
+}
+.square:hover {
+  outline: 0 !important;
+}
+
+/*# sourceMappingURL=Square.css.map */
