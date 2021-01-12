@@ -1,7 +1,7 @@
 import React, {createRef} from "react";
 import ball from "./ball.png"
 import "./Bell.scss";
-import song from "./1df6aa89c959ce1.mp3";
+import song from "./ballSong.mp3";
 
 
 const Bell = () => {
