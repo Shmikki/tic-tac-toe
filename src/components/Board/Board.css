@@ -49,6 +49,10 @@
     width: 300px;
     margin-right: 0;
   }
+
+  .refreshBtn {
+    margin-bottom: 70px;
+  }
 }
 
 /*# sourceMappingURL=Board.css.map */
