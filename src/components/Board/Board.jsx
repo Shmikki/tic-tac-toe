@@ -68,7 +68,6 @@ class Board extends React.Component {
     }
 
     render() {
-        console.log(this.state.stepCount)
         return (
             <div className="board">
                 <div className="board__game">
