@@ -12,6 +12,15 @@
     background: none;
   }
 
+  &__winner{
+
+
+    &:disabled{
+      background: #b0ff98;
+    }
+  }
+
+
   &__value{
     width: 100%;
     height: 100%;
@@ -20,7 +29,7 @@
   &__circle{
     stroke-dasharray: 283;
     stroke-dashoffset: 283;
-    animation: draw 1s forwards;
+    animation: draw 1.3s forwards;
   }
 
   &__cross{
@@ -28,13 +37,13 @@
     &_first{
       stroke-dasharray: 125;
       stroke-dashoffset: 125;
-      animation: draw 0.3s forwards;
+      animation: draw 0.6s forwards;
     }
 
     &_second{
       stroke-dasharray: 125;
       stroke-dashoffset: 125;
-      animation: draw 0.3s 0.3s forwards;
+      animation: draw 0.6s 0.6s forwards;
     }
 
   }

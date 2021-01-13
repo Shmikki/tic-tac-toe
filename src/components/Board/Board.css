@@ -31,12 +31,18 @@
 .refreshBtn {
   width: 100%;
   margin-top: 20px;
-  height: 30px;
   cursor: pointer;
-  border-radius: 3px;
+  background: #58ff26;
+  border-radius: 4px;
+  border: 1px solid #ffffff;
+  font-weight: 800;
+  padding: 10px;
 }
 .refreshBtn:hover {
-  background: #dddddd;
+  background: #58ff26;
+}
+.refreshBtn:focus {
+  outline: none;
 }
 
 @media all and (max-width: 600px) {

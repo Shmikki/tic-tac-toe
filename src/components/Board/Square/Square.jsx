@@ -8,20 +8,20 @@ export default function Square(props) {
     if (props.value === "0") {
 
         value = <svg className="square__value square__circle">
-            <circle stroke="black" r="30" cx="50" cy="50" fill="none" strokeWidth="8" strokeLinecap="round"/>
+            <circle stroke="red" r="35" cx="48" cy="47" fill="none" strokeWidth="6" strokeLinecap="round" />
         </svg>;
     }
     if (props.value === "X") {
         value = <svg className="square__value square__cross">
-            <line className="square__cross_first" x1="20" y1="20" x2="70" y2="70" stroke="black" strokeWidth="8"
+            <line className="square__cross_first" x1="15" y1="15" x2="80" y2="80" stroke="blue" strokeWidth="6"
                   strokeLinecap="round"/>
-            <line className="square__cross_second" x1="70" y1="20" x2="20" y2="70" stroke="black" strokeWidth="8"
+            <line className="square__cross_second" x1="80" y1="15" x2="15" y2="80" stroke="blue" strokeWidth="6"
                   strokeLinecap="round"/>
         </svg>;
     }
 
     return (
-        <button className="square" disabled={props.value || props.isWinner} onClick={props.onClick}>
+        <button  className={`square ${props.currentSquareIsWinner ? "square__winner" : ""} `} disabled={props.value || props.isWinner} onClick={props.onClick}>
             {value}
         </button>
     )

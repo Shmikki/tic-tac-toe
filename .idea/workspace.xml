@@ -20,12 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dc7d443c-626e-41cf-aa67-130e8ab3783a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Board/sounds/cross.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Board/sounds/zero.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Board/Board.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Board/Board.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Board/Board.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Board/Board.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Board.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Board/Square/Square.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Square/Square.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Board/Square/Square.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Square/Square.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Board/Square/Square.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Square/Square.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Board/Square/Square.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Board/Square/Square.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +53,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Board/Square/sounds" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -58,6 +64,14 @@
     <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\tic-tac-toe\tic-tac-toe\src\components\Board" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\tic-tac-toe\tic-tac-toe\src\components\Board\Square\sounds" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1610469433119</updated>
       <workItem from="1610469449737" duration="13360000" />
-      <workItem from="1610484604105" duration="5369000" />
+      <workItem from="1610484604105" duration="5998000" />
+      <workItem from="1610533030265" duration="7333000" />
     </task>
     <servers />
   </component>
@@ -84,6 +99,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="159" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610477311898">
