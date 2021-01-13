@@ -84,7 +84,7 @@ class Board extends React.Component {
                     <button className="refreshBtn" onClick={() => this.refresh()}>Restart game</button>
                 </div>
                 <div className="board__text">
-                    {this.state.stepCount === 9 && !this.win.isWinner ? "No winner. Restart the game" :
+                    {this.state.stepCount === 9 && !this.state.win.isWinner ? "No winner. Restart the game" :
                         <p>Next step is: <span
                             className="board__text_current-player">{this.state.nextPlayer ? "X" : "0"} </span></p>}
                     {this.state.win.isWinner ?
